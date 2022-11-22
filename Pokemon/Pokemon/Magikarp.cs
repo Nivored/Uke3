@@ -23,7 +23,7 @@ namespace Pokemon
             Health -= dmg;
         }
 
-        public void Spalsh(IPokemon opponent)
+        public void Splash(IPokemon opponent)
         {
             Console.WriteLine($"{Name} used Splash");
             opponent.LoosHealth(0);
